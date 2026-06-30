@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharva Veda: Ancient Mantras for Modern Problems</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #d35400;
+            --bg-color: #fcf9f2;
+            --card-bg: #ffffff;
+            --text-main: #333333;
+            --text-muted: #666666;
+            --accent-color: #f39c12;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(rgba(252, 249, 242, 0.9), rgba(252, 249, 242, 0.9)), url('https://images.unsplash.com/photo-1601662528567-526cd06f6582?auto=format&fit=crop&w=1920&q=80') center/cover;
+            border-bottom: 4px solid var(--primary-color);
+        }
+
+        h1 {
+            font-family: 'Lora', serif;
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .section-title {
+            text-align: center;
+            font-family: 'Lora', serif;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: var(--text-main);
+        }
+
+        /* Grid Layout */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        /* Card Styling */
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            border-top: 4px solid var(--accent-color);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .problem-tag {
+            display: inline-block;
+            background-color: #feeaa7;
+            color: #b97700;
+            padding: 0.3rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .card h3 {
+            font-family: 'Lora', serif;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .card p.description {
+            margin-bottom: 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* Mantra Section */
+        .mantra-box {
+            background-color: #fdf6ec;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .sanskrit {
+            font-family: 'Lora', serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .translation {
+            font-style: italic;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+        
+        .reference {
+            display: block;
+            text-align: center;
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+            font-weight: 600;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--text-main);
+            color: #fff;
+            margin-top: 4rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2rem; }
+            .section-title { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Wisdom of the Atharva Veda</h1>
+        <p class="subtitle">The Atharva Veda is known as the "Veda of daily life." It offers profound psychological, medicinal, and spiritual remedies for the everyday struggles faced by humanity.</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Healing Everyday Struggles</h2>
+        
+        <div class="grid">
+            
+            <!-- Problem 1: Anxiety & Fear -->
+            <div class="card">
+                <span class="problem-tag">Anxiety & Fear</span>
+                <h3>Overcoming Mental Stress</h3>
+                <p class="description">In today's fast-paced world, anxiety about the future, career, and daily survival can be paralyzing. The Atharva Veda provides mantras to cultivate an inner shield of fearlessness.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">अभयं मित्राद् अभयममित्राद् अभयं ज्ञाताद् अभयं पुरो यः।<br>अभयं नक्तमभयं दिवा नः सर्वा आशा मम मित्रं भवन्तु॥</p>
+                    <p class="translation">"May we have no fear of friend, no fear of foe, no fear of the known, no fear of what lies ahead. May we be fearless by night and by day. May all directions be my friends."</p>
+                    <span class="reference">— Atharva Veda (19.15.6)</span>
+                </div>
+            </div>
+
+            <!-- Problem 2: Relationship Conflicts -->
+            <div class="card">
+                <span class="problem-tag">Family & Relationships</span>
+                <h3>Resolving Domestic Harmony</h3>
+                <p class="description">Ego, misunderstandings, and busy schedules often lead to fractured relationships and family disputes. This powerful Sammanasya (harmony) mantra heals divides between loved ones.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">सहृदयं सांमनस्यमविद्वेषं कृणोमि वः।<br>अन्यो अन्यमभि हर्यत वत्सं जातमिवाघ्न्या॥</p>
+                    <p class="translation">"I make you of one heart, of one mind, and free from hatred. Love one another as a cow loves her newly born calf."</p>
+                    <span class="reference">— Atharva Veda (3.30.1)</span>
+                </div>
+            </div>
+
+            <!-- Problem 3: Debt & Financial Struggles -->
+            <div class="card">
+                <span class="problem-tag">Financial Stress</span>
+                <h3>Freedom from Debt</h3>
+                <p class="description">Financial instability and the burden of debt are heavy weights on the human mind. The Vedas address this practical reality directly, praying for fiscal and spiritual liberation.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">अनृणा अस्मिन्ननृणाः परस्मिन् तृतीये लोके अनृणाः स्याम।</p>
+                    <p class="translation">"May we be debt-free in this world, debt-free in the other world, and debt-free in the third world. May we live without the burden of debts."</p>
+                    <span class="reference">— Atharva Veda (6.117.3)</span>
+                </div>
+            </div>
+
+            <!-- Problem 4: Physical Health -->
+            <div class="card">
+                <span class="problem-tag">Health & Illness</span>
+                <h3>Healing and Vitality</h3>
+                <p class="description">As the foundational text for Ayurveda, the Atharva Veda contains numerous Bhaishajya (healing) mantras intended to cure physical ailments and invoke natural vitality.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">वात आ वातु भेषजं शम्भु मयोभु नो हृदे।<br>प्र ण आयूंषि तारिषत्॥</p>
+                    <p class="translation">"May the wind blow upon us with a healing breeze, bringing peace and comfort to our hearts. May it prolong our lives."</p>
+                    <span class="reference">— Atharva Veda (4.13.3)</span>
+                </div>
+            </div>
+
+            <!-- Problem 5: Anger Management -->
+            <div class="card">
+                <span class="problem-tag">Emotional Well-being</span>
+                <h3>Overcoming Anger</h3>
+                <p class="description">Uncontrolled anger destroys peace of mind and ruins relationships. The Atharva Veda contains psychological techniques and mantras meant to consciously unstring anger from the heart.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">अव ज्यामिव धन्वनो मन्युं तनोमि ते हृदः।<br>यथा सम्मनसौ भूत्वा सखायाविव सचावहै॥</p>
+                    <p class="translation">"Like a bowstring from a bow, I release the anger from your heart, so that, becoming of one mind, we may walk together like friends."</p>
+                    <span class="reference">— Atharva Veda (6.42.1)</span>
+                </div>
+            </div>
+
+            <!-- Problem 6: Business & Career Struggles -->
+            <div class="card">
+                <span class="problem-tag">Career & Business</span>
+                <h3>Success in Endeavors</h3>
+                <p class="description">Workplace competition, trade obstacles, and business uncertainties cause immense strain. Ancient merchants invoked these verses for smooth trade, leadership, and steady prosperity.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">इन्द्रमहं वणिजं चोदयामि स न एतु पुरएता नो अस्तु।<br>नुदन्नरातिं परिपन्थिनं मृगं स ईशानो धनदा अस्तु मह्यम्॥</p>
+                    <p class="translation">"I call upon the Divine Merchant. May He come to us and be our guide, driving away obstacles and ill-wishers, and granting wealth to our endeavors."</p>
+                    <span class="reference">— Atharva Veda (3.15.1)</span>
+                </div>
+            </div>
+
+            <!-- Problem 7: Lack of Focus -->
+            <div class="card">
+                <span class="problem-tag">Learning & Education</span>
+                <h3>Enhancing Memory and Intellect</h3>
+                <p class="description">Students and professionals alike often struggle with focus, brain fog, and mental fatigue. This 'Medha' (intelligence) mantra is recited to sharpen the mind and retain knowledge.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">मेधां मह्यं अङ्गिरसो मेधां सप्तर्षयो ददुः।<br>मेधां मह्यं प्रजापतिर् मेधां अग्निर्ददातु मे॥</p>
+                    <p class="translation">"May the wise sages grant me intellect. May the Seven Seers grant me intellect. May the Lord of Creation and the Divine Fire bestow radiant intelligence upon me."</p>
+                    <span class="reference">— Atharva Veda (6.108.1)</span>
+                </div>
+            </div>
+
+            <!-- Problem 8: Insomnia -->
+            <div class="card">
+                <span class="problem-tag">Rest & Recovery</span>
+                <h3>Deep and Restful Sleep</h3>
+                <p class="description">In an age of endless screen time and overthinking, insomnia is a modern epidemic. The Vedas personify Sleep (Swapna) as a healing force that restores the exhausted physical and mental body.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">स्वप्न स्वप्नाभिकरणेन सर्वं नि ष्वापया जनम्।<br>आ सूर्यमुदेतोत्स्वापयावहान्॥</p>
+                    <p class="translation">"O Sleep, with your restorative, sleep-inducing power, put to rest all restless minds. Keep them in peaceful slumber until the sun rises."</p>
+                    <span class="reference">— Atharva Veda (4.5.7)</span>
+                </div>
+            </div>
+
+            <!-- Problem 9: Disconnection from Nature -->
+            <div class="card">
+                <span class="problem-tag">Nature & Grounding</span>
+                <h3>Alienation and Disconnection</h3>
+                <p class="description">Modern urban life often leaves us feeling ungrounded, isolated, and disconnected from our roots. The Prithvi Sukta invokes a profound sense of belonging and ecological harmony.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">माता भूमिः पुत्रो अहं पृथिव्याः।</p>
+                    <p class="translation">"The Earth is my mother, and I am her child."</p>
+                    <span class="reference">— Atharva Veda (12.1.12)</span>
+                </div>
+            </div>
+
+            <!-- Problem 10: Communication Issues -->
+            <div class="card">
+                <span class="problem-tag">Communication</span>
+                <h3>Sweetness in Speech</h3>
+                <p class="description">Harsh words and poor communication often damage personal and professional lives. This mantra is a prayer for sweetness, charisma, and empathy in our daily interactions.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">इयं वीरुन्मधुजाता मधुना त्वा खनामसि।<br>मधोरधि प्रजातासि सा नो मधुमतस्कृधि॥</p>
+                    <p class="translation">"This plant is born of sweetness. We gather you with sweetness. As you are born of sweetness, make us full of sweetness in our words and actions."</p>
+                    <span class="reference">— Atharva Veda (1.34.1)</span>
+                </div>
+            </div>
+
+            <!-- Problem 11: Aging and Vitality -->
+            <div class="card">
+                <span class="problem-tag">Aging & Vitality</span>
+                <h3>Healthy Longevity</h3>
+                <p class="description">The fear of aging, disease, and losing independence is a universal human concern. This famous verse is a positive affirmation for a long, healthy, and fully conscious life.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">पश्येम शरदः शतं जीवेम शरदः शतम्।<br>बुध्येम शरदः शतं रोहेम शरदः शतम्॥</p>
+                    <p class="translation">"May we see a hundred autumns, may we live a hundred autumns. May we awaken to a hundred autumns, may we grow for a hundred autumns."</p>
+                    <span class="reference">— Atharva Veda (19.67)</span>
+                </div>
+            </div>
+
+            <!-- Problem 12: Environmental Chaos -->
+            <div class="card">
+                <span class="problem-tag">Environmental Stress</span>
+                <h3>Finding Inner Peace</h3>
+                <p class="description">Amidst the noise, pollution, and chaos of modern society, the mind craves tranquility. The Shanti mantras invoke universal peace across all elements of existence to calm the spirit.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">शान्ता द्यौः शान्ता पृथिवी शान्तमिदमुर्वन्तरिक्षम्।<br>शान्ता उदन्वतीरापः शान्ता नः सन्त्वोषधीः॥</p>
+                    <p class="translation">"May the heavens be peaceful, may the earth be peaceful, may the vast atmosphere be peaceful. May the flowing waters be peaceful, and may the plants bring peace to us."</p>
+                    <span class="reference">— Atharva Veda (19.9.1)</span>
+                </div>
+            </div>
+
+            <!-- Problem 13: Self-Doubt and Imposter Syndrome -->
+            <div class="card">
+                <span class="problem-tag">Confidence & Charisma</span>
+                <h3>Overcoming Self-Doubt</h3>
+                <p class="description">In an era of social media and intense peer comparison, imposter syndrome drains self-worth. This mantra is chanted to awaken inner confidence, glory, and undeniable charisma.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">यशो मा द्यावापृथिवी यशो मेन्द्रो बृहस्पतिः।<br>यशो भगश्च मा विदद् यशो मा प्रति मुच्यताम्॥</p>
+                    <p class="translation">"May Heaven and Earth grant me glory. May the divine forces of Indra and Brihaspati grant me glory. May prosperity and success find me and become a part of me."</p>
+                    <span class="reference">— Atharva Veda (6.39.1)</span>
+                </div>
+            </div>
+
+            <!-- Problem 14: Depression and Grief -->
+            <div class="card">
+                <span class="problem-tag">Mental Health</span>
+                <h3>Lifting the Heavy Heart</h3>
+                <p class="description">When grief, failure, or depression make life feel like a downward spiral, the Vedas offer psychological redirection. This verse powerfully commands the human spirit to rise upward and reclaim its vitality.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">उदयानं ते पुरुष नावयानं जीवातुं ते दक्षतातिं कृणोमि।</p>
+                    <p class="translation">"Upward is your path, O human, not downward. I invoke life, immense vitality, and skill for you."</p>
+                    <span class="reference">— Atharva Veda (8.1.6)</span>
+                </div>
+            </div>
+
+            <!-- Problem 15: Toxic Environments -->
+            <div class="card">
+                <span class="problem-tag">Boundaries & Protection</span>
+                <h3>Clearing Negative Energy</h3>
+                <p class="description">Dealing with toxic people and negative environments can leave one feeling spiritually drained. This purification mantra invokes the cleansing elements to act as a shield against negativity.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">पवमानः पुनातु मा देवैः सवितेन्द्रियैः।</p>
+                    <p class="translation">"May the purifying winds cleanse me. May the divine forces and the radiant sun purify my senses and my surroundings."</p>
+                    <span class="reference">— Atharva Veda (6.19.1)</span>
+                </div>
+            </div>
+
+            <!-- Problem 16: Lack of Collaboration -->
+            <div class="card">
+                <span class="problem-tag">Collaboration & Teamwork</span>
+                <h3>Building Team Unity</h3>
+                <p class="description">Whether in a corporate workspace or community group, divided teams fail. This beautiful leadership mantra promotes synchronization of minds, mutual respect, and unified effort.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">ज्यायस्वन्तश्चित्तिनो मा वि यौष्ट संराधयन्तः सधुराश्चरन्तः।<br>अन्यो अन्यस्मै वल्गु वदन्त एत सध्रीचीनान् वः संमनसस्कृणोमि॥</p>
+                    <p class="translation">"Do not fall apart, but work together with shared minds and common goals. Moving forward together, speaking sweetly to one another, I unite your minds and purposes."</p>
+                    <span class="reference">— Atharva Veda (3.30.2)</span>
+                </div>
+            </div>
+
+            <!-- Problem 17: Protection from Envy -->
+            <div class="card">
+                <span class="problem-tag">Protection</span>
+                <h3>Shielding from Jealousy</h3>
+                <p class="description">Jealousy and hidden malice from others can create unseen obstacles in our progress. The Atharva Veda includes powerful protective verses to neutralize negative intentions directed at us.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">यो नः शपशपतो यश्च नः शपादशपतः।<br>वृक्ष इव विद्युता हतः स मूलादनु शुष्यतु॥</p>
+                    <p class="translation">"He who curses us when we curse not, and he who curses us when we curse, let him wither from the root like a tree struck by lightning."</p>
+                    <span class="reference">— Atharva Veda (6.37.2)</span>
+                </div>
+            </div>
+
+                      <!-- Problem 18: Indecisiveness -->
+            <div class="card">
+                <span class="problem-tag">Purpose & Direction</span>
+                <h3>Overcoming Indecision</h3>
+                <p class="description">Feeling lost or unable to make the right choices is a common modern struggle. This prayer seeks divine guidance and clarity to illuminate the correct path in our lives.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">भद्रमिच्छन्त ऋषयः स्वर्विदस्तपो दीक्षामुपनिशेदुराग्रे।<br>ततो राष्ट्रं बलमोजश्च जातं तदस्मै देवा उप सं नमन्तु॥</p>
+                    <p class="translation">"Seeking the highest good, the seers of light sat in discipline. From that arose strength, vigor, and power. May the divine forces guide us to that same clarity."</p>
+                    <span class="reference">— Atharva Veda (19.41.1)</span>
+                </div>
+            </div>
+
+            <!-- Problem 19: Laziness and Procrastination -->
+            <div class="card">
+                <span class="problem-tag">Productivity</span>
+                <h3>Eradicating Lethargy</h3>
+                <p class="description">Lethargy and procrastination stop us from fulfilling our true potential. Ancient scholars recognized this and prescribed mental invocations to ignite dynamic action and determination.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">कृतं मे दक्षिणे हस्ते जयो मे सव्य आहितः।</p>
+                    <p class="translation">"Effort and action are placed in my right hand, and victory is placed in my left."</p>
+                    <span class="reference">— Atharva Veda (7.50.8)</span>
+                </div>
+            </div>
+
+            <!-- Problem 20: Carrying Past Guilt -->
+            <div class="card">
+                <span class="problem-tag">Forgiveness & Letting Go</span>
+                <h3>Releasing Past Burdens</h3>
+                <p class="description">Clinging to past mistakes and emotional baggage prevents us from moving forward. This verse is aimed at washing away the invisible stains of past guilt and releasing emotional weights.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">यद् देवा देवहेडनं देवासश्चकृमा वयम्।<br>आदित्यास्तस्मान्मा मुञ्चत॥</p>
+                    <p class="translation">"O Divine forces of light, whatever wrongs we have committed consciously or unconsciously, please release us from the burden of those actions."</p>
+                    <span class="reference">— Atharva Veda (6.114.1)</span>
+                </div>
+            </div>
+            
+            <!-- Problem 21: Bad Habits -->
+            <div class="card">
+                <span class="problem-tag">Mental Purity</span>
+                <h3>Overcoming Bad Habits</h3>
+                <p class="description">Addictions, negative thought patterns, and bad habits hold the mind hostage. This verse is a powerful declaration to banish destructive impulses and reclaim mental sovereignty.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">अपेहि मनसस्पतेऽप क्राम परश्चर।<br>परो निर्ऋत्या आ चक्ष्व बहुधा जीवतो मनः॥</p>
+                    <p class="translation">"Go away, O lord of evil thoughts, step away and depart far off. Look far away from destruction; the mind of the living is manifold and beautiful."</p>
+                    <span class="reference">— Atharva Veda (6.45.1)</span>
+                </div>
+            </div>
+
+            <!-- Problem 22: Fear of Failure -->
+            <div class="card">
+                <span class="problem-tag">Courage & Victory</span>
+                <h3>Conquering the Fear of Failure</h3>
+                <p class="description">The fear of failing often stops us before we even begin. Sourced from the Prithvi Sukta, this is a warrior's affirmation to channel absolute confidence and inner victory.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">अहमस्मि सहमान उत्तरो नाम भूम्याम्।<br>अभीषाडस्मि विश्वाषाडाशामाशां विषासहिः॥</p>
+                    <p class="translation">"I am victorious, the most exalted on the earth. I am the conqueror, conquering all, completely prevailing in every direction."</p>
+                    <span class="reference">— Atharva Veda (12.1.54)</span>
+                </div>
+            </div>
+
+            <!-- Problem 23: Finding a Partner -->
+            <div class="card">
+                <span class="problem-tag">Love & Partnership</span>
+                <h3>Attracting True Love</h3>
+                <p class="description">The search for a genuine, understanding life partner can be emotionally exhausting. This ancient vow sets the energetic foundation for mutual sweetness, attraction, and deep connection.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">अक्षिण्यौ नौ मधुशङ्काशे अनीकं नौ समञ्जनम्।<br>अन्तः कृणुष्व मां हृदि मन इन्नौ सहासति॥</p>
+                    <p class="translation">"May our eyes reflect sweetness; may our faces shine with harmony. Keep me within your heart, and may our minds truly be one."</p>
+                    <span class="reference">— Atharva Veda (7.36.1)</span>
+                </div>
+            </div>
+
+            <!-- Problem 24: Wasting Time -->
+            <div class="card">
+                <span class="problem-tag">Time Management</span>
+                <h3>Valuing the Present Moment</h3>
+                <p class="description">In an age of constant digital distraction, time slips away unnoticed. The Kala (Time) Sukta reminds us of the unstoppable, majestic momentum of time, urging us to use it wisely.</p>
+                <div class="mantra-box">
+                    <p class="sanskrit">कालो अश्वो वहति सप्तरश्मिः सहस्राक्षो अजरो भूरिरेताः।<br>तमा रोहन्ति कवयो विपश्चितस्तस्य चक्रा भुवनानि विश्वा॥</p>
+                    <p class="translation">"Time drives like a horse with seven reins, thousand-eyed, unaging, and full of vitality. The wise ones mount it; all the worlds are its wheels."</p>
+                    <span class="reference">— Atharva Veda (19.53.1)</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Created for inner peace and spiritual learning. The wisdom of the Vedas belongs to all.</p>
+    </footer>
+
+</body>
+</html>
+        
